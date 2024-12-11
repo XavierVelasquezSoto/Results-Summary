@@ -6,5 +6,8 @@
 @media screen and (width > 1024px) {
 	.flex {
 		flex-direction: row;
+		justify-content: center;
+		align-items: end;
+		margin-top: 150px;
 	}
 }

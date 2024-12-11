@@ -3,6 +3,7 @@ import { v4 } from 'uuid';
 export const CARD_INFO = [
 	{
 		id: v4(),
+		bodyBackground: 'white',
 		container: 'red',
 		imgSummary: '/public/assets/images/icon-reaction.svg',
 		textSummary: 'Reaction',

@@ -1,3 +1,8 @@
+.bodySummary {
+	background-color: #ffffff;
+	height: 512px;
+	border-radius: 0 20px 20px 0;
+}
 .summary {
 	margin: 0;
 	padding: 24px 0 24px 32px;
@@ -16,4 +21,15 @@
 	font-size: 18px;
 	border-radius: 35px;
 	margin: 24px 30px;
+	cursor: pointer;
+}
+
+@media (hover: hover) {
+	.button:hover {
+		background-image: linear-gradient(
+			rgb(119, 85, 255, 0.85),
+			rgb(105, 67, 255, 0.95),
+			#2f2ce9
+		);
+	}
 }

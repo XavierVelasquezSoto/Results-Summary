@@ -4,12 +4,13 @@ import styles from './card-summary.module.css';
 
 const CardSummary = () => {
 	return (
-		<div>
+		<div className={styles.bodySummary}>
 			<h2 className={styles.summary}>Summary</h2>
 			{CARD_INFO.map(cardInfo => {
 				return (
 					<SummaryTotal
 						key={cardInfo.id}
+						bodyBackground={cardInfo.bodyBackground}
 						container={cardInfo.container}
 						imgSummary={cardInfo.imgSummary}
 						textSummary={cardInfo.textSummary}

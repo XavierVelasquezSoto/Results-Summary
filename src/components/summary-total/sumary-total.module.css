@@ -1,0 +1,25 @@
+.container {
+	height: 56px;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 30px;
+	background-color: red;
+}
+.container-red {
+	background-color: #ff5555;
+}
+.container-red {
+	background-color: #ffb21e;
+}
+.container-red {
+	background-color: #00bb8f;
+}
+.container-red {
+	background-color: #1125d6;
+}
+
+.imgSummaryTotal {
+	height: 20px;
+}

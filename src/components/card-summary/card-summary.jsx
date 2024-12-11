@@ -10,7 +10,6 @@ const CardSummary = () => {
 				return (
 					<SummaryTotal
 						key={cardInfo.id}
-						bodyBackground={cardInfo.bodyBackground}
 						container={cardInfo.container}
 						imgSummary={cardInfo.imgSummary}
 						textSummary={cardInfo.textSummary}

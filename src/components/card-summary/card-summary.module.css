@@ -1,0 +1,19 @@
+.summary {
+	margin: 0;
+	padding: 24px 0 24px 32px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #303b59;
+}
+
+.button {
+	border: none;
+	width: 315px;
+	height: 56px;
+	background-color: #303b59;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	border-radius: 35px;
+	margin: 24px 30px;
+}

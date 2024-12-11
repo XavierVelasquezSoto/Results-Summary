@@ -1,25 +1,61 @@
 .container {
 	height: 56px;
-	border-radius: 40px;
+	border-radius: 15px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 0 30px;
 	background-color: red;
+	margin: 0 30px;
 }
 .container-red {
-	background-color: #ff5555;
+	background-color: rgb(255, 87, 87, 0.1);
 }
-.container-red {
-	background-color: #ffb21e;
+.container-yellow {
+	background-color: rgb(255, 178, 30, 0.1);
+	margin-top: 16px;
 }
-.container-red {
-	background-color: #00bb8f;
+.container-green {
+	background-color: rgb(0, 187, 143, 0.1);
+	margin-top: 16px;
 }
-.container-red {
-	background-color: #1125d6;
+.container-blue {
+	background-color: rgb(17, 37, 214, 0.1);
+	margin-top: 16px;
 }
 
 .imgSummaryTotal {
 	height: 20px;
+}
+
+.textSummary {
+	font-size: 16px;
+	font-weight: 500;
+	padding-left: 12px;
+}
+
+.textSummary-red {
+	color: #ff5555;
+}
+.textSummary-yellow {
+	color: blue;
+}
+.textSummary-green {
+	color: #00bb8f;
+}
+.textSummary-blue {
+	color: #1125d6;
+}
+
+.numberResult {
+	font-size: 16px;
+	font-weight: 700;
+	color: #303b59;
+	margin-left: auto;
+}
+
+.numberTotal {
+	font-size: 16px;
+	font-weight: 700;
+	color: rgb(48, 59, 89, 0.7);
 }

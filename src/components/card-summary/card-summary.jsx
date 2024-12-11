@@ -5,11 +5,12 @@ import styles from './card-summary.module.css';
 const CardSummary = () => {
 	return (
 		<div>
-			<h2>Summary</h2>
+			<h2 className={styles.summary}>Summary</h2>
 			{CARD_INFO.map(cardInfo => {
 				return (
 					<SummaryTotal
 						key={cardInfo.id}
+						container={cardInfo.container}
 						imgSummary={cardInfo.imgSummary}
 						textSummary={cardInfo.textSummary}
 						numberResult={cardInfo.numberResult}
@@ -17,7 +18,7 @@ const CardSummary = () => {
 					/>
 				);
 			})}
-			<button>Continue</button>
+			<button className={styles.button}>Continue</button>
 		</div>
 	);
 };

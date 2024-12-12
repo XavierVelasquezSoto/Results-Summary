@@ -10,7 +10,11 @@ const SummaryTotal = ({
 	return (
 		<div className={`${styles.container} ${styles[`container-${container}`]}`}>
 			<img className={styles.imgSummaryTotal} src={imgSummary} alt='' />
-			<span className={`${styles.textSummary} ${styles[`textSummary-${container}`]}`}>{textSummary}</span>
+			<span
+				className={`${styles.textSummary} ${styles[`textSummary-${container}`]}`}
+			>
+				{textSummary}
+			</span>
 			<span className={styles.numberResult}>{numberResult}</span>
 			<span className={styles.numberTotal}>{numberTotal}</span>
 		</div>

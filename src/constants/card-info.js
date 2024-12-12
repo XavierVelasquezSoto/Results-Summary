@@ -6,7 +6,7 @@ export const CARD_INFO = [
 		container: 'red',
 		imgSummary: '/public/assets/images/icon-reaction.svg',
 		textSummary: 'Reaction',
-		numberResult: '92',
+		numberResult: '80',
 		numberTotal: '/ 100'
 	},
 
@@ -14,7 +14,7 @@ export const CARD_INFO = [
 		id: v4(),
 		container: 'yellow',
 		imgSummary: '/public/assets/images/icon-memory.svg',
-		textSummary: 'Reaction',
+		textSummary: 'Memory',
 		numberResult: '92',
 		numberTotal: '/ 100'
 	},
@@ -23,8 +23,8 @@ export const CARD_INFO = [
 		id: v4(),
 		container: 'green',
 		imgSummary: '/public/assets/images/icon-verbal.svg',
-		textSummary: 'Reaction',
-		numberResult: '92',
+		textSummary: 'Verbal',
+		numberResult: '61',
 		numberTotal: '/ 100'
 	},
 
@@ -32,8 +32,8 @@ export const CARD_INFO = [
 		id: v4(),
 		container: 'blue',
 		imgSummary: '/public/assets/images/icon-visual.svg',
-		textSummary: 'Reaction',
-		numberResult: '92',
+		textSummary: 'Visual',
+		numberResult: '73',
 		numberTotal: '/ 100'
 	}
 ];

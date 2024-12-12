@@ -1,14 +1,20 @@
 .bodySummary {
-	background-color: #ffffff;
 	height: 512px;
 	border-radius: 0 20px 20px 0;
 }
+
 .summary {
 	margin: 0;
 	padding: 24px 0 24px 32px;
 	font-weight: 700;
 	font-size: 18px;
 	color: #303b59;
+}
+
+@media screen and (width > 1024px) {
+	.summary {
+		padding: 38px 0 28px 40px;
+	}
 }
 
 .button {
@@ -22,6 +28,12 @@
 	border-radius: 35px;
 	margin: 24px 30px;
 	cursor: pointer;
+}
+
+@media screen and (width > 1024px) {
+	.button {
+		margin: 41px 40px;
+	}
 }
 
 @media (hover: hover) {
